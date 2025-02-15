@@ -59,7 +59,7 @@ ul li a{
 
 @media only screen and (max-width: 768px) {
     body {
-        padding-top: 20px; 
+        margin-top: 50vh; 
       }
     
     h1 {
