@@ -58,10 +58,10 @@ ul li a{
 }
 
 @media only screen and (max-width: 768px) {
-    .container h1, h2, h4{
-        
-    margin-top: 10px;
-    }
+    body {
+        padding-top: 20px; 
+      }
+    
     h1 {
     font-size: 40px;
     left: 50%;
