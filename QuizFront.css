@@ -106,12 +106,7 @@ ul li a{
       width: 90%;
       font-size: 14px;
     }
-        h1, h2, h4, ul {
-        position: relative;
-        top: 250%;
-        transform: translateY(-20%);
-        text-align: center;
-        }
+     
         
   }
   
