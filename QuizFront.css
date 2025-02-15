@@ -59,7 +59,14 @@ ul li a{
 }
 
 
-
+@media only screen and (max-width: 480px) {
+    .container {
+      margin: 10px auto;
+      padding: 10px;
+      width: 90%; 
+    }
+  }
+  
 
 
 
