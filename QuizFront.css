@@ -15,7 +15,7 @@ h1{
     background-image: linear-gradient(to bottom, #ffeb3b 0%, #ffeb3b 50%, #2196f3 51%, #2196f3 100%);
     position: relative;
     padding: 10px;
-    -webkit-background-clip: text;
+    
     -webkit-text-fill-color: transparent;
     left: 675px;
     top: 150px;
