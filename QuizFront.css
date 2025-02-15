@@ -55,3 +55,55 @@ ul li a{
     color: #fff;
     text-decoration: none;
 }
+
+@media only screen and (max-width: 768px) {
+    h1 {
+      font-size: 40px;
+      left: 50%;
+      transform: translateX(-50%);
+      top: 50px;
+    }
+  
+    h2 {
+      font-size: 24px;
+      left: 50%;
+      transform: translateX(-50%);
+      top: 80px;
+    }
+  
+    h4 {
+      font-size: 18px;
+      left: 50%;
+      transform: translateX(-50%);
+      top: 100px;
+    }
+  
+    ul {
+      width: 80%;
+      left: 50%;
+      transform: translateX(-50%);
+      top: 150px;
+    }
+  }
+  
+  @media only screen and (max-width: 480px) {
+    h1 {
+      font-size: 30px;
+    }
+  
+    h2 {
+      font-size: 18px;
+    }
+  
+    h4 {
+      font-size: 14px;
+    }
+  
+    ul {
+      width: 90%;
+      font-size: 14px;
+    }
+  }
+  
+  
+  
