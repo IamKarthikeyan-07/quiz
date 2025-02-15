@@ -3,112 +3,58 @@
     padding: 0;
     font-family: 'Poppins', sans-serif;
     box-sizing: border-box;
-}
-body{
+    }
+    
+    body {
     background: black;
-}
-.container{
-    max-width: 600px;
-}
-h1{
+    }
+    
+    .container {
+    width: 90%;
+    margin: 0 auto;
+    padding: 20px;
+    }
+    
+    h1 {
     color: #fff;
     background-image: linear-gradient(to bottom, #ffeb3b 0%, #ffeb3b 50%, #2196f3 51%, #2196f3 100%);
-    position: relative;
     padding: 10px;
     -webkit-background-clip: text;
     background-clip: text;
     -webkit-text-fill-color: transparent;
-    left: 675px;
-    top: 150px;
-    font-size: 70px;
+    font-size: 2.5rem;
     font-weight: 600;
-}
-h2{
+    text-align: center;
+    }
+    
+    h2 {
     color: #fff;
-    left: 640px;
-    top: 180px;
-    position: relative;
     font-weight: 600;
-}
-h4{
+    font-size: 1.8rem;
+    text-align: center;
+    }
+    
+    h4 {
     color: #fff;
-    left: 560px;
-    top: 200px;
-    position: relative;
-
-}
-ul{
-    left: 620px;
-    top: 240px;
-    position: relative;
-    padding: 10px ;
-    width: 50%;
+    font-size: 1.2rem;
+    text-align: center;
+    }
+    
+    ul {
+    padding: 10px;
+    width: 100%;
     background: linear-gradient(154deg, #ffeb3b, #aa1ee2e0);
     font-weight: 600;
-    border-style: none ;
+    border-style: none;
     border-radius: 10px;
     cursor: pointer;
     display: block;
     text-align: center;
-}
-ul li a{
+    }
+    
+    ul li a {
     list-style: none;
     color: #fff;
     text-decoration: none;
-}
-
-
-
-@media only screen and (max-width: 768px) {
-    h1 {
-      font-size: 40px;
-      left: 50%;
-      transform: translateX(-50%);
-      top: 50px;
     }
-  
-    h2 {
-      font-size: 24px;
-      left: 50%;
-      transform: translateX(-50%);
-      top: 80px;
-    }
-  
-    h4 {
-      font-size: 18px;
-      left: 50%;
-      transform: translateX(-50%);
-      top: 100px;
-    }
-  
-    ul {
-      width: 80%;
-      left: 50%;
-      transform: translateX(-50%);
-      top: 150px;
-    }
-  }
-  
-  @media only screen and (max-width: 480px) {
-    h1 {
-      font-size: 30px;
-    }
-  
-    h2 {
-      font-size: 18px;
-    }
-  
-    h4 {
-      font-size: 14px;
-    }
-  
-    ul {
-      width: 90%;
-      font-size: 14px;
-    }
-     
-        
-  }
-  
-  
-  
+    
