@@ -90,7 +90,7 @@ ul li a{
     @media only screen and (max-width: 480px) {
     
     .container {
-        align-items: center;
+        top: 250px;
     }
     h1 {
     font-size: 30px;
