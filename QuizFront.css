@@ -92,9 +92,6 @@ ul li a{
   @media only screen and (max-width: 480px) {
     h1 {
       font-size: 30px;
-      position: relative;
-        top:250px;
-      left: 10px;
     }
   
     h2 {
@@ -103,17 +100,18 @@ ul li a{
   
     h4 {
       font-size: 14px;
-      
     }
   
     ul {
       width: 90%;
       font-size: 14px;
     }
-     h2, h4, ul {
+        h1, h2, h4, ul {
         position: relative;
-        top: 300px;
-    }
+        top: 250%;
+        transform: translateY(-20%);
+        text-align: center;
+        }
         
   }
   
