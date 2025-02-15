@@ -66,8 +66,7 @@ ul li a{
     }
     h1 {
     font-size: 40px;
-    left: 30%;
-    
+    left: 40%;
     top: 50px;
     }
     
@@ -80,14 +79,14 @@ ul li a{
     
     h4 {
     font-size: 18px;
-    left: 50%;
+    left: 60%;
     transform: translateX(-50%);
     top: 100px;
     }
     
     ul {
     width: 50%;
-    left: 90%;
+    left: 70%;
     transform: translateX(-50%);
     top: 150px;
     }
