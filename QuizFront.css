@@ -6,12 +6,6 @@
 }
 body{
     background: black;
-    height: 100vh;
-display: flex;
-justify-content: center;
-align-items: center;
-flex-direction: column;
-
 }
 .container{
     max-width: 600px;
@@ -62,6 +56,14 @@ ul li a{
     color: #fff;
     text-decoration: none;
 }
+
+h1, h2, h4, ul {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    }
+    
 
 @media only screen and (max-width: 768px) {
     h1 {
