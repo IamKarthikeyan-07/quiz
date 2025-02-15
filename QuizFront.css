@@ -108,7 +108,7 @@ ul li a{
     }
     h1, h2, h4, ul {
         position: relative;
-        top: 50%;
+        top: 300px;
         
         text-align: center;
         }
